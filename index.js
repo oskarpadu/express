@@ -10,6 +10,6 @@ app.use('/todos', todoRoutes);
 
 app.use(express.urlencoded({ extended: true }));
 
-app.listen(3000, () => {
+app.listen(3009, () => {
   console.log('Server is running on http://localhost:3009');
 });
