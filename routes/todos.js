@@ -5,5 +5,6 @@ const router = Router();
 
 router.post('/todos', (req, res) => todoController.createTodo(req, res));
 router.get('/todos', (req, res) => todoController.getTodos(req, res));
+router.patch('/:id', (req, res) => todoController.uptadeTodo(req, res));
 
 export default router;
